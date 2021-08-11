@@ -7,7 +7,7 @@ body {
 }
 
 .top-pane {
-  background-color: #14ffec;
+  background-color: hsl(225, 6%, 25%);
 }
 
 .pane {
@@ -21,8 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  background-color: #03203c;
-  box-shadow: 5px 10px 8px #888888;
+  background-color: hsl(225, 6%, 25%);
 }
 
 .editor-container.collapsed {
@@ -45,7 +44,7 @@ body {
 .editor-title {
   display: flex;
   justify-content: space-between;
-  background-color: #0d0d0d;
+  background-color: #152a38;
   color: white;
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   border-top-right-radius: 0.5rem;
@@ -64,8 +63,4 @@ body {
   border-bottom-left-radius: 0.5rem;
   overflow: hidden;
   font-size: 0.9rem;
-}
-
-.bottom-pane {
-  font-family: "Merriweather", sans-serif;
 }

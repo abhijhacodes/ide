@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
-  background-color: #03203c;
+  background-color: #120e43;
   box-shadow: 5px 10px 8px #888888;
 }
 
@@ -45,7 +45,7 @@ body {
 .editor-title {
   display: flex;
   justify-content: space-between;
-  background-color: #0d0d0d;
+  background-color: hsl(225, 6%, 13%);
   color: white;
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   border-top-right-radius: 0.5rem;
@@ -64,8 +64,4 @@ body {
   border-bottom-left-radius: 0.5rem;
   overflow: hidden;
   font-size: 0.9rem;
-}
-
-.bottom-pane {
-  font-family: "Merriweather", sans-serif;
 }
